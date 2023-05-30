@@ -1,0 +1,32 @@
+#profile{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(57, 57, 57);
+}
+#profile h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.postUser{
+    margin-top: 5px;
+    width:  100%;
+    height: 30vh;
+}
+@media (max-width: 425px) {
+    #gridImages{
+        display: block;
+    }
+    .square {
+        margin-top: 2rem;
+    }
+    
+}
+.square:hover{
+    filter: opacity(60%);
+}

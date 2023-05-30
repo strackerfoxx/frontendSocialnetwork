@@ -1,0 +1,122 @@
+main{
+    width: 100%;
+}
+aside{
+    width: 15rem;
+    height: 100vh;
+    position: fixed;
+    border-right: 1px solid rgb(44, 44, 44);
+    margin: 0;
+    padding: 1rem;
+}
+.logo{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+aside nav a{
+    color: white;
+    text-decoration: none;
+    margin: 1.3rem 0;
+    width: 2rem;
+    font-size: .8rem;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+aside nav div{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+svg{
+    width: 2rem;
+    margin-right: 1rem;
+    padding: 0;
+}
+article{
+    margin-left: calc(17rem + 17%);
+    margin-right: 17%;
+}
+
+.bottombar{
+    display: none;
+}
+@media (max-width: 1264px) {
+    p{
+        display: none;
+    }
+    aside{
+        width: 3rem;
+    }
+    .logo a img{
+        width: 3.5rem;
+        height: 3.5rem;
+        margin-bottom: 1rem;
+    }
+    article{
+        margin-left: calc(5rem + 4%);
+        margin-right: 4%;
+    }
+}
+@media (max-width: 768px) {
+    aside{
+        display: none;
+    }
+    .bottombar{
+        width: 100%;
+        background-color: rgb(59, 59, 59);
+        display: block;
+        padding: .5rem 0;
+        position: fixed;
+        bottom: 0;
+    }
+    .bottombar nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    svg{
+        margin: 0;
+    }
+    article{
+        margin: 0;
+    }
+}
+
+.noIndex{
+    margin-left: calc(17rem + 10%);
+    margin-right: 10%;
+}
+
+@media (max-width: 1264px) {
+    .noIndex{
+        margin-left: calc(5rem + 2%);
+        margin-right: 2%;
+    }
+}
+@media (max-width: 768px) {
+    .noIndex{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+.alert{
+    padding: .5rem;
+    width: 24rem;
+    background-color: rgb(208, 0, 0);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: .5rem;
+
+}
+.success{
+    padding: .5rem;
+    width: 24rem;
+    background-color: rgb(0, 208, 3);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: .5rem;
+
+}

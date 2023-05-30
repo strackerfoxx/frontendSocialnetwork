@@ -1,0 +1,77 @@
+.listado{
+    width: 100%;
+}
+.listado div{
+    border-radius: .5rem;
+    margin: 0 auto;
+}
+.listado div:not(:first-child){
+    margin-top: 1rem;
+}
+.listado div h1{
+    padding: 1rem;
+}
+.listado div img{
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .listado div{
+        width: 90%;
+    }
+    .listado div img{
+        height: 100%;
+    }
+}
+.post{
+    background-color: rgba(43, 43, 43);
+}
+.author{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 1rem 0 1rem;
+}
+.listado div div img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 10rem;
+}
+.prev{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1rem 0 1rem;
+    gap: 2rem;
+    background: none;
+}
+.prev button{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.prev button svg{
+    width: 1.7rem;
+    margin: 0;
+}
+.desc {
+    padding: 0 1rem 1rem 1rem;
+    margin: 0;
+}
+.comentario{
+    margin-top: .7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#likes{
+    margin-bottom: .3rem;
+    font-size: 1rem;
+    color: rgb(145, 145, 145);
+}
+.postprev{
+    border: 0;
+    background: none;
+    cursor: pointer;
+    text-align: left;
+}
+.comments{
+}

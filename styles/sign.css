@@ -1,0 +1,58 @@
+.sign{
+    background-image: url("https://images.unsplash.com/photo-1543348750-466b55f32f16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.campo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.331);
+    border-radius: 2rem;
+    padding: .2rem;
+    margin: 1rem 0;
+    width: 25rem;
+    backdrop-filter: blur(2px);
+    border: 0;
+}
+.campo input{
+    background-color: transparent;
+    border: 0;
+    padding: .8rem;
+    color: whitesmoke;
+    width: 85%;
+    border-radius: 1rem;
+}
+.campo input::placeholder{
+    color: rgb(159, 159, 159);
+}
+.campo input:focus{
+    outline: none;
+}
+.icon{
+    width: 1.5rem;
+    margin: 0 0;
+}
+.btn{
+    border-radius: 1.5rem;
+    width: 100%;
+    background-color: rgb(159, 0, 0);
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    border: 0;
+    transition: ease-in-out 300ms;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(99, 0, 0);
+    transition: ease-in-out 300ms;
+}
